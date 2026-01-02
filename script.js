@@ -20,12 +20,12 @@ let prizes = [
   {name:"احن واطيب واحدة في الدنيا", prob:10, img:"2.png"},
   {name:"لو لفيت الدنيا مش هلاقي حد زيك انت عوض ربنا ليا", prob:10, img:"3.png"},
   {name:"سهيلة يعني روح قلبي واغلي حد ف حياتي", prob:15, img:"4.png"},
-  {name:"انت اولوياتي وانت حياتي", prob:15, img:"5.png"},
+  {name:"انت اولوياتي وانت حياتي", prob:15, img:"9.png"},
   {name:"انت روح قلبي", prob:10, img:"6.png"},
   {name:"احلى ام يزن في الدنيا", prob:10, img:"7.png"},
   {name:"انت نور عيني وعمري وحياتي", prob:10, img:"8.png"},
   {name:"Try Again", prob:10, img:"try.png"},
-  {name:"Lose", prob:10, img:"9.png"}
+  {name:"Lose", prob:10, img:"10.png"}
 ];
 
 const segmentColors = [
@@ -274,4 +274,5 @@ saveAdmin.addEventListener("click", () => {
   drawWheel(); // إعادة رسم العجلة بالقيم الجديدة
 
 });
+
 
